@@ -1,0 +1,24 @@
+{
+  "name": "project-103-glozzom-multipage-theme",
+  "version": "1.0.0",
+  "description": "bootstrap multi-page theme",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/style.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Salman-Farshe/Glozzom.git"
+  },
+  "author": "Salman Farshe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Salman-Farshe/Glozzom/issues"
+  },
+  "homepage": "https://github.com/Salman-Farshe/Glozzom#readme",
+  "devDependencies": {
+    "bootstrap": "^5.0.0-beta3",
+    "jquery": "^3.6.0",
+    "node-sass": "^5.0.0"
+  }
+}
