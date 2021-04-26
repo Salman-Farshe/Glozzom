@@ -1,0 +1,30 @@
+@import './abstracts/variable.scss';
+@import './abstracts/mixin.scss';
+@import './abstracts/extend.scss';
+@import './abstracts/function.scss';
+@import './abstracts/helper.scss';
+
+@import './vendors/bootstrap.scss';
+@import './vendors/jquery.scss';
+
+@import './base/reset.scss';
+@import './base/typography.scss';
+@import './base/animation.scss';
+
+@import './layouts/navigation.scss';
+@import './layouts/header.scss';
+@import './layouts/flex.scss';
+@import './layouts/grid.scss';
+@import './layouts/sidebar.scss';
+@import './layouts/form.scss';
+@import './layouts/footer.scss';
+
+@import './components/button.scss';
+@import './components/carosel.scss';
+@import './components/dropdown.scss';
+
+
+@import './pages/home.scss';
+
+
+@import './themes/theme.scss';
