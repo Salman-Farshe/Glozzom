@@ -1,0 +1,16 @@
+.navbar{
+
+    &-brand{
+        font-size: 1rem;
+    }
+
+    .nav-link{
+        font-size: 0.8rem;
+        text-transform: uppercase;
+        padding: 0rem 1rem !important;
+
+        &.active{
+            border-left: #444 3px solid;
+        }
+    }
+}

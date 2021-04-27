@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html, body {
+  font-family: 'Open Sans', sans-serif; }
+
+html {
+  font-size: 1rem; }
+
+.navbar-brand {
+  font-size: 1rem; }
+
+.navbar .nav-link {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  padding: 0rem 1rem !important; }
+  .navbar .nav-link.active {
+    border-left: #444 3px solid; }
