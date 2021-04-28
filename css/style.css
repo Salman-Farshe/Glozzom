@@ -21,3 +21,8 @@ html {
   padding: 0rem 1rem !important; }
   .navbar .nav-link.active {
     border-left: #444 3px solid; }
+
+.showcase .carousel-caption {
+  margin-bottom: 2rem; }
+  .showcase .carousel-caption h5 {
+    font-size: 2rem; }
