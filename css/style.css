@@ -74,3 +74,12 @@ html {
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.7); }
+
+#signup .form-group {
+  margin-top: 0.2rem; }
+  #signup .form-group input[type='submit'] {
+    margin-top: 1rem;
+    background-color: #26c426;
+    color: #fff; }
+    #signup .form-group input[type='submit']:hover {
+      background-color: #26c300; }

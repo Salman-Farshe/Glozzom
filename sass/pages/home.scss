@@ -69,3 +69,21 @@
     
     }
 }
+
+
+// sign up modal (carousel section)
+#signup{
+    .form-group{
+        margin-top: 0.2rem;
+
+        & input[type='submit']{
+            margin-top: 1rem;
+            background-color: #26c426;
+            color: #fff;
+
+            &:hover{
+                background-color: #26c300;
+            }
+        }
+    }
+}

@@ -68,7 +68,7 @@
                         <p class="lead">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat commodi omnis veniam repudiandae officiis quaerat exercitationem provident et amet optio.
                         </p>
-                        <a href="#" class="btn btn-danger btn-lg">Sign Up Now</a>
+                        <a href="#" class="btn btn-danger btn-lg" data-bs-toggle="modal" data-bs-target="#signup">Sign Up Now</a>
                     </div>
                 </div>
                 <div class="carousel-item carousel-image-02">
@@ -240,6 +240,38 @@
         </div>
     </section>
 
+
+    <!-- sign up modal section (carousel section) -->
+    <div id="signup" class="modal fade text-dark">
+        <div class="modal-dialog">
+            <div class="modal-content">
+ 
+                <div class="modal-header">
+                    <h5 class="modal-title">Sign Up Here</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                     <form action="#">
+                         <div class="form-group">
+                             <label for="name">Name</label>
+                             <input type="text" class="form-control" name="name" id="name">
+                         </div>
+                         <div class="form-group">
+                             <label for="email">Email</label>
+                             <input type="email" class="form-control" name="name" id="name">
+                         </div>
+                         <div class="form-group">
+                             <label for="pass">Password</label>
+                             <input type="password" class="form-control" name="pass" id="pass">
+                         </div>
+                         <div class="form-group">
+                            <input type="submit" value="submit" class="form-control">
+                         </div>
+                     </form>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <!-- fontawesome webfont -->
