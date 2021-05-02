@@ -274,6 +274,20 @@
     </div>
 
 
+    <!-- footer section -->
+    <footer class="footer bg-dark text-white py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p class="text-center my-auto">
+                        Copyright &copy; <span id="year"></span> All Right Reserved
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
     <!-- fontawesome webfont -->
     <script src="https://kit.fontawesome.com/70401da5f8.js" crossorigin="anonymous"></script>
     <!-- fontawesome SVG -->
@@ -291,6 +305,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js" integrity="sha512-Y2IiVZeaBwXG1wSV7f13plqlmFOx8MdjuHyYFVoYzhyRr3nH/NMDjTBSswijzADdNzMyWNetbLMfOpIPl6Cv9g==" crossorigin="anonymous"></script>
     
     <script>
+        // footer year
+        $('#year').text(new Date().getFullYear());
+
+        ////////////
         $(document).on('click', '[data-toggle="lightbox"]', function(event) {
             event.preventDefault();
             $(this).ekkoLightbox();

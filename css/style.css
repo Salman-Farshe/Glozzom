@@ -83,3 +83,7 @@ html {
     color: #fff; }
     #signup .form-group input[type='submit']:hover {
       background-color: #26c300; }
+
+.footer p {
+  font-size: 0.8rem;
+  font-weight: bolder; }
