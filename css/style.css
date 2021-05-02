@@ -87,3 +87,8 @@ html {
 .footer p {
   font-size: 0.8rem;
   font-weight: bolder; }
+
+.about__header {
+  min-height: auto;
+  background: url("../../img/image1.jpg") no-repeat center center/cover;
+  background-attachment: fixed; }
