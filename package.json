@@ -20,6 +20,7 @@
     "bootstrap": "^5.0.0-beta3",
     "jquery": "^3.6.0",
     "lightbox2": "^2.11.3",
-    "node-sass": "^5.0.0"
+    "node-sass": "^5.0.0",
+    "slick-slider": "^1.8.2"
   }
 }
