@@ -26,3 +26,22 @@
         font-size: 1rem;
     }
 }
+
+
+// testimonial section
+.testimonial{
+    background-color: rgb(77, 77, 77);
+    border-bottom: honeydew 0.1px solid;
+
+    h2{
+        color: chocolate;
+    }
+
+    .blockquote{
+        font-size: 1.2rem;
+    }
+
+    .blockquote__footer{
+        font-size: 0.8rem;
+    }
+}

@@ -167,6 +167,62 @@
     </section>
 
 
+    <!-- testimonial section -->
+    <section class="testimonial text-white p-5">
+        <div class="container">
+            <h2 class="text-center">Testimonials</h2>
+            <div class="row text-center mt-3">
+                <div class="col">
+                    <div class="slider">
+
+                        <div>
+                            <blockquote class="blockquote">
+                                <p class="mb-0">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, debitis.
+                                </p>
+                            </blockquote>
+                            <figcaption class="blockquote__footer">
+                                John Smith From
+                                <cite title="Company 1">
+                                    Company 1
+                                </cite>
+                            </figcaption>
+                        </div>
+
+                        <div>
+                            <blockquote class="blockquote">
+                                <p class="mb-0">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, debitis.
+                                </p>
+                            </blockquote>
+                            <figcaption class="blockquote__footer">
+                                Mimi From
+                                <cite title="Company 2">
+                                    Company 2
+                                </cite>
+                            </figcaption>
+                        </div>
+
+                        <div>
+                            <blockquote class="blockquote">
+                                <p class="mb-0">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, debitis.
+                                </p>
+                            </blockquote>
+                            <figcaption class="blockquote__footer">
+                                Zo Zink From
+                                <cite title="Company 3">
+                                    Company 3
+                                </cite>
+                            </figcaption>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
     <!-- footer section -->
     <footer class="footer bg-dark text-white py-3">
         <div class="container">
@@ -198,6 +254,15 @@
     <script>
         // footer year
         $('#year').text(new Date().getFullYear());
+
+        // slick slider jquery
+        $('.slider').slick({
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplayspeed: 2000,
+        });
     </script>
 </body>
 </html>
