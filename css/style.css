@@ -141,3 +141,9 @@ html {
   min-height: auto;
   background: url("../../img/image1.jpg") no-repeat center center/cover;
   background-attachment: fixed; }
+
+.contact h4 {
+  font-size: 1.4rem; }
+
+.contact .form-group {
+  margin-top: 1rem; }
