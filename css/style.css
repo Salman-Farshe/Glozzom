@@ -129,4 +129,10 @@ html {
   font-size: 0.8rem; }
 
 .service__plan li {
-  list-style: none; }
+  list-style: none;
+  border: none; }
+
+.blog__header {
+  min-height: auto;
+  background: url("../../img/image2.jpg") no-repeat center center/cover;
+  background-attachment: fixed; }
