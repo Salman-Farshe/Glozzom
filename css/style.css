@@ -136,3 +136,8 @@ html {
   min-height: auto;
   background: url("../../img/image2.jpg") no-repeat center center/cover;
   background-attachment: fixed; }
+
+.contact__header {
+  min-height: auto;
+  background: url("../../img/image1.jpg") no-repeat center center/cover;
+  background-attachment: fixed; }
