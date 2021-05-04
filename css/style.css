@@ -115,5 +115,18 @@ html {
 
 .service__header {
   min-height: auto;
-  background: url("../../img/image2.jpg") no-repeat center center/cover;
+  background: url("../../img/image1.jpg") no-repeat center center/cover;
   background-attachment: fixed; }
+
+.service__plan h1 {
+  font-size: 1.5rem; }
+
+.service__plan .card-title {
+  font-size: 1.3rem;
+  font-weight: bold; }
+
+.service__plan p {
+  font-size: 0.8rem; }
+
+.service__plan li {
+  list-style: none; }
