@@ -11,7 +11,15 @@
     color: #fff;
 
     @media only screen and (max-width:767px) {
-        height: 30vh;
+        height: 25vh;
+
+        h1{
+            font-size: 1.5rem;
+            margin-top: -1rem;
+        }
+        p{
+            font-size: 1rem;
+        }
     }
 
     .overlay-image{
@@ -57,6 +65,9 @@
     color: #fff;
     @media only screen and (max-width:767px) {
         height: 30vh;
+        h1{
+            font-size: 1.5rem;
+        }
     }
 
     &__overlay{

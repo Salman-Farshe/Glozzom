@@ -11,6 +11,12 @@ html, body {
 
 html {
   font-size: 1rem; }
+  @media only screen and (max-width: 767px) {
+    html {
+      font-size: 0.8rem; } }
+  @media only screen and (max-width: 400px) {
+    html {
+      font-size: 0.6rem; } }
 
 .navbar-brand {
   font-size: 1rem; }
@@ -36,7 +42,12 @@ html {
   color: #fff; }
   @media only screen and (max-width: 767px) {
     .home-heading {
-      height: 30vh; } }
+      height: 25vh; }
+      .home-heading h1 {
+        font-size: 1.5rem;
+        margin-top: -1rem; }
+      .home-heading p {
+        font-size: 1rem; } }
   .home-heading .overlay-image {
     position: absolute;
     top: 0;
@@ -66,7 +77,9 @@ html {
   color: #fff; }
   @media only screen and (max-width: 767px) {
     .video {
-      height: 30vh; } }
+      height: 30vh; }
+      .video h1 {
+        font-size: 1.5rem; } }
   .video__overlay {
     position: absolute;
     top: 0;
