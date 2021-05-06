@@ -48,6 +48,9 @@ html {
         margin-top: -1rem; }
       .home-heading p {
         font-size: 1rem; } }
+  @media only screen and (max-width: 767px) and (orientation: landscape) {
+    .home-heading {
+      height: 40vh; } }
   .home-heading .overlay-image {
     position: absolute;
     top: 0;
@@ -80,6 +83,11 @@ html {
       height: 30vh; }
       .video h1 {
         font-size: 1.5rem; } }
+  @media only screen and (max-width: 767px) and (orientation: landscape) {
+    .video {
+      height: 40vh; }
+      .video .container {
+        margin-top: -0.2rem !important; } }
   .video__overlay {
     position: absolute;
     top: 0;
