@@ -171,3 +171,9 @@ html {
 
 .staff {
   background-color: #464646; }
+  @media only screen and (max-width: 552px) {
+    .staff .row {
+      display: grid;
+      grid-template-rows: auto auto auto auto; }
+    .staff img {
+      width: 100px; } }

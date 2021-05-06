@@ -19,4 +19,14 @@
 // staff section
 .staff{
     background-color: #464646;
+
+    @media only screen and (max-width: 552px){
+        .row{
+            display: grid;
+            grid-template-rows: auto auto auto auto;
+        }
+        img{
+            width: 100px;
+        }
+    }
 }
